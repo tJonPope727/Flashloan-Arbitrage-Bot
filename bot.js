@@ -3,9 +3,7 @@ const { ethers } = require("hardhat");
 require("dotenv").config();
 // const etherss = require("ethers");
 const Scalar = require("ffjavascript").Scalar;
-
 const uniswapLib = require("./uniswap-lib");
-
 const FLASHLOAN_CONTRACT = "0xdbBEF6D9e14904b59dc9D652334B31F0aB84Ef6e"; // Deployed Flashloan Contract address on Mainnet
 const DAI_ADDRESS = "0x6B175474E89094C44Da98b954EedeAC495271d0F"; // Dai address
 const FLASHLOAN_ABI = [
